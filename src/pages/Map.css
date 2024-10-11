@@ -1,0 +1,20 @@
+
+.location-container{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+#searchbar{
+    width: 400px;
+    height: 30px;
+    margin-left: 33%;
+    margin-bottom: 30px;
+}
+form label{
+    position: absolute;
+    left: -99999px;
+}

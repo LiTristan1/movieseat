@@ -1,0 +1,84 @@
+.Slide-Container{
+    width: 60%;
+    margin: auto;
+    height: 400px;
+    
+}
+.Image-Container{
+    width: 100%;
+    margin: auto;
+    height: 400px;
+    border: 2px solid black;
+    overflow: hidden
+}
+.Image-Container img{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.Bubble-Container span{
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    
+}
+
+.Bubble-Container span:hover{
+    background-color: black;
+}
+.Active-Bubble{
+    background-color: black;
+}
+.Bubble-Container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.Movie-Selection{
+    display: grid;
+    grid-template-columns:  repeat(5,1fr);
+    grid-template-rows: repeat(autofill,120px);
+    row-gap: 20px;
+    column-gap: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 6%;
+    padding: 10px;
+}
+.More-Info-Box{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+.More-Info-Box ul{
+    list-style: none;
+
+}
+.More-Info-Box h1{
+    font-size: 25px;
+}
+.More h1{
+    position: relative;
+    left: 30%;
+}
+.Corporate-Info h1{
+    position: relative;
+    left: 18%;
+}
+.Theatre-Information ul{
+    position: relative;
+    left: 10%;
+}
+

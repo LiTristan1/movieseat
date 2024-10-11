@@ -1,0 +1,39 @@
+.screen{
+    width: 80%;
+    height: 50px;
+    border: 2px solid black;
+    position:relative;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.seat-grid1{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(19,1fr);
+    
+}
+.seat-grid{
+    width: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(26,1fr);
+    
+}
+.seat-grid2{
+    width: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(26,1fr);
+}
+.seats-container{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    gap: 50px;
+}

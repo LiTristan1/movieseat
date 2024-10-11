@@ -1,0 +1,29 @@
+.Navigation-Bar{
+    list-style:none;
+    color: white;
+    background-color: black;
+    min-height: 50px;
+    gap: 20px;
+}
+.Navigation-Bar li:hover{
+    background-color: grey;
+
+}
+.Navigation-Bar li{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 70%;
+    padding: 20px;
+}
+#brand-name{
+    position: relative;
+    left: 30%;
+    font-size: 45px;
+    color: gold;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

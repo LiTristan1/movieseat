@@ -1,0 +1,11 @@
+.location{
+    width: 50%;
+    height: 40px;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location:hover{
+    background-color: lightblue;
+}
